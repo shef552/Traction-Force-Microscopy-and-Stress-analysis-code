@@ -1,0 +1,17 @@
+//Loop to do FTTC on each PIV files for each frame
+
+
+//Change parameters here////
+
+Nframes=83; //Number of frames in the original movie
+///////////////////////////////////////////
+
+
+for (i = 0; i <Nframes; i++){   // 
+j=i+1;
+run("FTTC ", "pixel=0.32 poisson=0.5 young's=15000 regularization=0.000000000 plot=1000 plot=1000 select=[C:\\Temp\\s.gupta\\ZO1 TFM_August 2020\\fINAL COMBINATION\\14\\ForPIV\\PIV"+j+".txt]");     //***********************************************************
+}
+
+
+
+
